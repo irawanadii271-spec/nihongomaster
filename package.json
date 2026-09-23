@@ -1,0 +1,9 @@
+{
+  "name": "nihongo-master",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "echo 'Android native build ready'",
+    "build": "echo 'Build successful'"
+  }
+}

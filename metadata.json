@@ -1,0 +1,6 @@
+{
+  "name": "NihongoMaster",
+  "description": "Interactive Japanese learning platform for JLPT N5, N4, N3 & N2 with Kanzen Shinmaster grammar guides, Minna no Nihongo 1 & 2, vocabulary lists, kanji hub, SRS flashcards, and realistic timed JLPT exam simulations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

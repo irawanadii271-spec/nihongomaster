@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NihongoMaster</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_learning">Learning</string>
+    <string name="nav_flashcards">Flashcards</string>
+    <string name="nav_exam">JLPT Exam</string>
+    <string name="nav_analytics">Analytics</string>
+    <string name="grammar_hub">Grammar Hub</string>
+    <string name="vocab_hub">Vocab Hub</string>
+    <string name="kanji_hub">Kanji Hub</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_lacquer_red">#BC4B51</color>
+    <color name="primary_lacquer_red_dark">#FF5252</color>
+    <color name="bg_warm_cream">#FDFBF7</color>
+    <color name="bg_dark">#121212</color>
+    <color name="sage_green">#5B8266</color>
+    <color name="ochre_gold">#C98A2C</color>
+    <color name="indigo_slate">#486B7F</color>
+    <color name="text_primary_light">#3E362E</color>
+    <color name="text_primary_dark">#F1F1F1</color>
+</resources>
