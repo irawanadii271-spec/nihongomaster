@@ -7,12 +7,12 @@ plugins {
 
 android {
     namespace = "com.example.nihongomaster"
-    compileSdk = 35
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.aistudio.nihongomaster.kjrxv"
-        minSdk = 26
-        targetSdk = 35
+        minSdk = 24
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0.0"
 
@@ -21,7 +21,10 @@ android {
 
     signingConfigs {
         getByName("debug") {
-            storeFile = file("${rootDir}/debug.keystore")
+            val keystoreFile = file("${rootDir}/debug.keystore")
+            if (keystoreFile.exists()) {
+                storeFile = keystoreFile
+            }
         }
     }
 
@@ -38,11 +41,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_21
-        targetCompatibility = JavaVersion.VERSION_21
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "21"
+        jvmTarget = "17"
     }
     buildFeatures {
         compose = true
